@@ -9,9 +9,9 @@ export default defineConfig(() => ({
             input: './src/index.html',
         },
     },
-    // optimizeDeps: {
-    //     include: ['shaka-player/dist/shaka-player.ui'],
-    // },
+    optimizeDeps: {
+        include: ['shaka-player/dist/shaka-player.ui'],
+    },
     plugins: [
         react(),
         reactNativeWeb(),
